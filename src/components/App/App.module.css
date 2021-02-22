@@ -1,0 +1,12 @@
+.VideoInfo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .VideoInfo {
+        grid-template-columns: 1fr;
+    }
+}
